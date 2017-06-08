@@ -1,7 +1,7 @@
 
 # BitArrayList
 
-The library provides a growable array data structure which can represent a list of bits. So far there is `FIFO` functionality, bits can be set `ON` and `OFF` and two `BitArrayList`s can be concatenated.
+The library provides a grow-able array data structure which can represent a list of bits. So far there is `FIFO` functionality, bits can be set `ON` and `OFF` and two `BitArrayList`s can be concatenated.
 
 [![Build Status](https://travis-ci.org/MrKonstantinT/bit-array-list.svg?branch=master)](https://travis-ci.org/MrKonstantinT/bit-array-list)
 
