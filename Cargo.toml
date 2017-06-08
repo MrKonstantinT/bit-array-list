@@ -1,0 +1,12 @@
+[package]
+name = "bit_array_list"
+version = "0.1.0"
+authors = ["Konstantin Terziev <kd.terziev@gmail.com>"]
+description = "A Rust contiguous grow-able array data structure of bits."
+repository = "https://github.com/MrKonstantinT/bit-array-list"
+readme = "README.md"
+keywords = ["bit", "bits", "array", "list"]
+categories = ["data-structures"]
+license = "MIT"
+
+[dependencies]
