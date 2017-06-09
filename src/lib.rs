@@ -162,12 +162,16 @@ impl BitArrayList {
         &self.bytes
     }
 
-    /// Helper method for turing [is_set()](struct.BitArrayList.html#method.is_set) output to
+    /// Helper method for turing [is_set()][1] output to
     /// string slice.
+    ///
+    /// [1]: struct.BitArrayList.html#method.is_set
     ///
     /// # Panics
     ///
-    /// see [is_set()](struct.BitArrayList.html#panics).
+    /// see [is_set()][2].
+    ///
+    /// [2]: struct.BitArrayList.html#panics
     ///
     /// # Examples
     ///
@@ -306,7 +310,9 @@ impl BitArrayList {
     ///
     /// # Panics
     ///
-    /// see [push()](struct.BitArrayList.html#panics-3).
+    /// see [push()][3].
+    ///
+    /// [3]: struct.BitArrayList.html#panics-3
     ///
     /// # Examples
     ///
@@ -367,7 +373,9 @@ impl BitArrayList {
     /// # Safety
     ///
     /// Specifying a shorter length will not drop the elements after the last index and they may be
-    /// read with [bytes](struct.BitArrayList.html#method.bytes).
+    /// read with [bytes][4].
+    ///
+    /// [4]: struct.BitArrayList.html#method.bytes
     ///
     /// # Examples
     ///
