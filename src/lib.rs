@@ -125,7 +125,7 @@ impl BitArrayList {
         self.length
     }
 
-    /// Helper method to perform `self.length < 1 i.e returns `true` if bit array has no
+    /// Helper method to perform `self.length < 1 i.e returns` `true` if bit array has no
     /// elements.
     ///
     /// # Examples
