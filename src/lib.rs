@@ -301,6 +301,9 @@ impl BitArrayList {
     ///
     /// Leaves other bits array unusable (dropped by Rust).
     ///
+    /// Operation is fast if self has no wasted space in the last byte otherwise we push each bit
+    /// from the other bits into self one by one.
+    ///
     /// # Panics
     ///
     /// see [push()](struct.BitArrayList.html#panics-3).
