@@ -3,7 +3,7 @@
 
 The library provides a grow-able array data structure which can represent a list of bits. So far there is `FIFO` functionality, bits can be set `ON` and `OFF` and two `BitArrayList`s can be concatenated.
 
-[![Build Status](https://travis-ci.org/MrKonstantinT/bit-array-list.svg?branch=master)](https://travis-ci.org/MrKonstantinT/bit-array-list)
+[![Build Status](https://travis-ci.org/konstantindt/bit-array-list.svg?branch=master)](https://travis-ci.org/konstantindt/bit-array-list)
 
 ## Documentation
 
@@ -25,7 +25,7 @@ Add this entry under `Cargo.toml` `dependencies` section name:
 
 ```toml
 [dependencies]
-bit_array_list = { git = "https://github.com/MrKonstantinT/bit-array-list" }
+bit_array_list = { git = "https://github.com/konstantindt/bit-array-list" }
 ```
 
 and the following to your crate root:

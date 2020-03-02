@@ -9,7 +9,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! bit_array_list = { git = "https://github.com/MrKonstantinT/bit-array-list" }
+//! bit_array_list = { git = "https://github.com/konstantindt/bit-array-list" }
 //! ```
 //!
 //! and the following to your crate root:
